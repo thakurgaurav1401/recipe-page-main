@@ -1,0 +1,117 @@
+*{
+    margin: 20px;
+    /* border: 5px red solid; */
+}
+
+body{
+    background-color: hsl(30, 54%, 90%);
+    font-family: 'Outfit', sans-serif;
+}
+
+
+
+
+.wrapper{
+    max-inline-size: 1000px;
+    margin-inline: auto;
+    background-color:hsl(0, 0%, 100%);
+    border-radius: 20px;
+}
+.flex{
+    display: flex;
+
+}
+.dish-omelette{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.dish-omelette img{
+    max-width: 100%;
+    display: block;
+}
+
+h1{
+    color:hsl(24, 5%, 18%) ;
+    font-family: 'Young Serif', serif; 
+    font-weight: 600;
+    font-size: 2rem;
+}
+h2{
+    color: hsl(14, 45%, 36%) ;
+    font-family: 'Young Serif', serif; 
+    font-weight: 400;
+    
+}
+h3{
+    color: hsl(332, 51%, 32%);
+}
+.quick-dish-omelette{
+    margin-top: 80px;
+
+}
+
+.span{
+    color:hsl(30, 10%, 34%) ;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+p{
+   font-size: 16px;
+   
+}
+.Preparation-time{
+    padding: 20px;
+    background-color:  hsl(330, 100%, 98%);
+    margin-inline: 30px;
+}
+.Preparation-time ul li::marker {
+    color: hsl(332, 51%, 32%);  
+}
+ul li{
+    padding-left: 20px;
+}
+.Ingredients{
+    margin: 20px;
+}
+.Ingredients ul li::marker{
+    color: hsl(14, 45%, 36%) ;
+    
+}
+.Ingredients ul li{
+    padding-left: 20px;
+}
+
+.Instructions{
+    padding: 20px;
+}
+.Instructions ol li::marker{
+    color: hsl(14, 45%, 36%) ;
+    font-weight: 700;
+    padding-left: 10px;
+}
+.Nutrition{
+   padding: 20px;
+}
+
+.nutrition-table {
+    max-inline-size: 600px; /* Controls table width */
+    width: 100%;
+    border-collapse: collapse;
+    margin: 40px ; /* Centers the table */
+    
+}
+
+.nutrition-table td {
+    border: 1px solid #ccc; 
+    padding: 10px; 
+    text-align: left; 
+
+}
+.highlight {
+    color: hsl(14, 45%, 36%) ;
+    font-weight: 700;
+}
+
